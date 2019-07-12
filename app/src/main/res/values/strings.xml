@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="text_about_alc">About ALC</string>
+    <string name="text_profile">My profile</string>
+    <string name="text_welcome">Welcome to ALC 4.0</string>
+    <string name="full_name">Bienvenue</string>
+    <string name="track_title">Track:</string>
+    <string name="text_track">Android</string>
+    <string name="country_title">Country:</string>
+    <string name="text_country">Gabon</string>
+    <string name="email_title">Email:</string>
+    <string name="text_email">bienvenuembaiwodji9@gmail.com</string>
+    <string name="phone_number_title">Phone Number:</string>
+    <string name="text_phone_number">24106678773</string>
+    <string name="slack_username_title">Slack Username:</string>
+    <string name="text_slack_username">\@mbienvenue</string>
+    <string name="profile_image">Profile image</string>
+</resources>
