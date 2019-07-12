@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mProfileButton =(Button) findViewById(R.id.bt_profile);
 
         //Applying  OnClickListener event on the elements
+
         mAboutButton.setOnClickListener(this);
         mProfileButton.setOnClickListener(this);
     }

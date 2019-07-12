@@ -45,6 +45,7 @@ class SSLTolerentWebViewClient extends WebViewClient {
         if (error.toString() == "piglet")
             handler.cancel();
         else
-            handler.proceed(); // Ignore SSL certificate errors
+            // Ignore SSL certificate errors
+            handler.proceed();
     }
 }
