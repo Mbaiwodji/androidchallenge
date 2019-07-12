@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    //Declaration of attributes
     Button mAboutButton;
     Button mProfileButton;
 
@@ -19,9 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Obtaining references to our elements
         mAboutButton = (Button) findViewById(R.id.bt_about_alc);
         mProfileButton =(Button) findViewById(R.id.bt_profile);
 
+        //Applying  OnClickListener event on the elements
         mAboutButton.setOnClickListener(this);
         mProfileButton.setOnClickListener(this);
     }
